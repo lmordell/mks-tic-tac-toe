@@ -1,0 +1,13 @@
+{
+  "name": "Tic Tac Toe",
+  "version": "1.0.0",
+  "description": "Basic Tic-Tac Toe Implementation",
+  "authors": [
+    "Lee Mordell"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2"
+  }
+}

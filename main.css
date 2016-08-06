@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    font-style: italic;
+}
+
+.header {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#tic {
+    color: red;
+}
+
+#tac {
+    color: blue;
+    font-size: 75px;
+}
+
+#toe {
+    color: red;
+}
+
+#turnDisplay {
+    text-align: center;
+
+}
+
+/*Player Classes*/
+.player1 {
+	color: blue;
+}
+
+.player2 {
+	color: red;
+}
+
+
+/*Board Styling*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 250px auto 250px;
+}
+
+/*Make sure board size is consistent*/
+
+@media screen and (min-width: 932px) {
+    .container {
+        margin: auto 450px;
+    }
+}
+
+.flex-item {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.piecesStyling {
+    text-align: center;
+    font-size: 35px;
+    display: none;
+}
+
+
+/*Reset Button*/
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #5c4283;
+    font-size: 14px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#winner {
+	font-size: 20px;
+}
+
+
+/*Score Container*/
+
+.scoreContainer {
+    display: flex;
+    border: 2px solid #5c4283;
+    justify-content: center;
+    margin: 10px 200px;
+    padding: 10px;
+}
+
+.player {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#draw {
+    padding: 5px;
+}
+

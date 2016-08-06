@@ -1,0 +1,63 @@
+<!doctype html>
+
+<head>
+	<title>Tic Tac Toe</title>
+    <script src="bower_components/jquery/speed/jquery-basis.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="app.js"></script>
+    <script src="board.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <p id="intro">Lee Mordell presents...</p>
+    <h1 class="header"><span id="tic">Tic</span> <span id="tac">Tac</span> <span id="toe">Toe</span></h1>
+    <h4 id="turnDisplay" class="player1">Player <span id='turn'></span>, it's your turn</h4>
+    <br>
+    <!-- Board -->
+    <div class="container">
+        <div class="flex-item" id="one">
+            <p class='piecesStyling' id="00"></p>
+        </div>
+        <div class="flex-item" id="two">
+            <p class='piecesStyling' id=01></p>
+        </div>
+        <div class="flex-item" id="three">
+            <p class='piecesStyling' id=02></p>
+        </div>
+        <div class="flex-item" id="four">
+            <p class='piecesStyling' id=10></p>
+        </div>
+        <div class="flex-item" id="five">
+            <p class='piecesStyling' id=11></p>
+        </div>
+        <div class="flex-item" id="six">
+            <p class='piecesStyling' id=12></p>
+        </div>
+        <div class="flex-item" id="seven">
+            <p class='piecesStyling' id=20></p>
+        </div>
+        <div class="flex-item" id="eight">
+            <p class='piecesStyling' id=21></p>
+        </div>
+        <div class="flex-item" id="nine">
+            <p class='piecesStyling' id=22></p>
+        </div>
+    </div>
+    <br>
+    <!-- Reset Button -->
+    <div class="buttonContainer">
+        <button id="reset">Reset</button>
+    </div>
+    <!-- Display Winnder -->
+    <h3>The winner is: <span id="winner"></span></h3>
+    <!-- Score Display -->
+    <div class="scoreContainer">
+        <div class="player">Player 1 wins: <span class="player1"></span></div>
+        <div id="draw">Draws:<span id="draw"></span></div>
+        <div class="player">Player 2 wins: <span class="player2"></span></div>
+    </div>
+</body>
+
+</html>

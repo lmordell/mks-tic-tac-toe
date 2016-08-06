@@ -1,0 +1,20 @@
+(OK) create js, css, and html file
+(OK) make sure css file is correctly hooked up (create basic div in html file and css property in css file for it)
+(OK) install jquery make sure it's properly included
+(OK make sure js file is correctly hooked up (write a conosle.log in the js file and see if you can run it from the html file)
+(OK) create text for 'player _, it's your turn'
+(OK) css text
+(OK)create board
+(OK)css board
+(OK)create a reset button that currently just console logs 'reset'
+(OK)css previous section
+(OK)create section for p1 wins, draws, and p2 wins
+css previous section
+
+(OK)Create event listeners for each table cell, make sure they're unqiue
+(OK)Once listeners work, add an X or O to cell on click
+(OK)Establish 'Game' class which manages who's turn it in, and the scoreboard
+(OK)Based on who's turn it is, mark an X or O based on click, and have it alternate
+(OK)Create a 'determine winner' function
+(OK)Establish detailed game parameters, not allowing clicks on already clicked areas
+Implement reset button
